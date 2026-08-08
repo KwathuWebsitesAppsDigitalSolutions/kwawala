@@ -52,7 +52,7 @@
                         <a href="index.html#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link active">About</a> 
+                        <a href="about.html" class="nav-link">About</a> 
                     </li>
                     <li class="nav-item">
                         <a href="index.html#products" class="nav-link">Products</a>
@@ -67,7 +67,7 @@
                         <a href="contact.html" class="nav-link">Contact Us</a>
                     </li>
                     <li>
-                        <a href="donate.html" class="btn donate-btn ms-4 me-4">
+                        <a href="donate.html" class="btn donate-btn ms-4 me-4 active">
                             DONATE <i class="bi bi-heart-fill"></i>
                         </a>
                     </li>
@@ -79,72 +79,80 @@
     <!-- Showcase -->
     <section class="bg-light text-light text-center" id="contact-showcase">
         <div class="position-relative">
-            <img src="images/activities/about.jpg" alt="Solar Lamp Campaign">
+            <img src="images/activities/slide_img4.jpg" alt="Solar Lamp Campaign">
         </div>
     </section>
 
-    <!-- About Us -->
-    <section id="team" style="background-color: #006636;">
-        <div class="container-contact"><br><br>
-            <h2 class="mb-4" style="color: #006636;">/ About Us</h2><br>
-            <p>
-                Kwawala Energies is dedicated to transforming lives by providing access to affordable 
-                and sustainable solar energy solutions. With a mission to empower underprivileged 
-                households in Malawi, Kwawala Energies focuses on promoting economic empowerment, 
-                enhancing livelihood resilience, fostering environmental sustainability, and advancing 
-                education through innovative solar technologies.
-            </p>
-            <p>
-                Kwawala Energies is actively engaged in the sale of diverse solar lamp products, including the SunKing 
-                Home 200x, Home 40 Plus, and Pico Solar Lamps, in Mulanje District. This initiative addresses the 
-                critical energy needs of communities affected by climate events like Cyclone Freddy in 2023. The project,
-                supported by D-Prize funding, aligns with the organization’s goal to improve energy access in underserved regions.
-            </p><br><br>
-            <div class="row gy-4">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Our Vision</h5>
-                        <p class="card-text">
-                            To be a leading provider of sustainable and affordable solar energy solutions, transforming 
-                            the lives of underprivileged communities across Malawi
-                        </p>
+    <!-- Contact Us-->
+    <section id="contact-us" style="background-color: #006636;">
+        <div class="container-contact">
+            <div class="section section-padding">
+        <div class="container"><br><br>
+        <h2 class="mb-4" style="color: #006636;">/ DONATE <i class="bi bi-heart-fill"></i>
+        </h4><br>
+        <form>
+            <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <div class="d-flex flex-wrap gap-2">
+                        <button type="button" class="btn donate-btn1">$5</button>
+                        <button type="button" class="btn donate-btn1">$10</button>
+                        <button type="button" class="btn donate-btn1">$25</button>
+                        <button type="button" class="btn donate-btn1">$50</button>
+                        <button type="button" class="btn donate-btn1">$100</button>
                     </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Our Mision</h5>
-                        <p class="card-text">
-                            To improve economic resilience by enabling access to cost-effective and sustainable solar 
-                            energy solutions for rural households, fostering financial stability, and enhancing the 
-                            quality of life.
-                        </p>
-                    </div>
-                    </div>
-                </div>
-            </div><br><br>
-            <div class="card text-center">
-                <div class="card-header">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Our Objectives</h5>
-                    <p class="card-text">
-                        Promote Access to Affordable Solar Energy
-                    </p>
-                    <p class="card-text">
-                        Enhance Economic Empowerment and Livelihood Resilience
-                    </p>
-                    <p class="card-text">
-                        Support Environmental Sustainability and Education
-                    </p>
-                </div>
-                <div class="card-footer text-body-secondary">
+                </div><br>
+                
+                <div class="mb-3 input-box">
+                    <input type="number" class="form-control" placeholder="Amount">
+                </div><br>
+
+                <!-- Payment Method -->
+                <div class="mb-3 input-box">
+                    <select class="form-select">
+                        <option selected disabled>Select method</option>
+                        <option>Credit Card</option>
+                        <option>Mobile Money</option>
+                        <option>Bank Transfer</option>
+                    </select>
                 </div>
             </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-md-6">
+                <div class="mb-3 input-box">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div><br>
+
+                <!-- Email -->
+                <div class="mb-3 input-box">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div><br>
+
+                <!-- Message -->
+                <div class="mb-3 input-box">
+                    <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                </div>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="col-12">
+                <div class="mt-4 text-start">
+                    <button type="submit" class="btn btn-submit">
+                        <strong>Submit</strong>
+                    </button>
+                </div>
+            </div>
+            </div>
+        </form>
+    </div>     
+
+    </div>
+
+
+
         </div>
-    </section>
+    </section>    
 
     <!-- Partners -->
     <section>
@@ -206,7 +214,7 @@
                             class="btn signUp-btn"
                             data-bs-toggle="modal"
                             data-bs-target="#signupModal">
-                            Sign Up <i class="fas fa-arrow-right"></i>
+                            SIgn Up <i class="fas fa-arrow-right"></i>
                         </button>
                     </div>
 
