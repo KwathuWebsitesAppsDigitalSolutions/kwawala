@@ -315,11 +315,7 @@
 }
 
 /*================================================= CONTACT US =========================================================*/
-.container-contact {
-    width: 80%;
-    background: #fff;
-    margin: 0 auto;
-    padding: 20px 60px 40px 40px;
+#contact-us .container {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 #contact-us .content {
