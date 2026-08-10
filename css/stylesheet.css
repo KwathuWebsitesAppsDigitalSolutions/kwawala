@@ -492,7 +492,7 @@
 /* Small screens */
 @media (max-width: 576px) {
     .carousel-item img {
-        height: 220px !important;
+        height: 190px !important;
         object-fit: cover;
     }
 
